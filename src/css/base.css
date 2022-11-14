@@ -1,0 +1,50 @@
+
+body {
+  background-color: #F4F6F9;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+
+.main{
+  width: 59.09%;
+	margin-left: 9%;
+	padding-top: 2.5rem;
+}
+
+
+.wrapper {
+  display: flex;
+}
+
+
+h1 {
+  font: 2rem var(--font-view1);
+}
+
+h2 {
+  font: 0.75rem var(--font-view1);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font:0.75rem var(--font-view1);
+  font-weight: bold;
+
+}
+
+h4 {
+  font:0.75rem var(--font-view1);
+}
+
+h5 {
+  font: normal 18px var(--font-view1);
+}
+
+p{
+	font-family: var(--font-view1);
+	font-size: 1rem;
+	line-height: 1.5rem;
+}

@@ -1,0 +1,159 @@
+.post {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.56rem 0 0 0;
+  margin-bottom: 1rem;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0 1.87rem 1.3rem 1.87rem;
+}
+
+.post__liked {
+  font-family: open sans;
+  font-size: 0.825rem;
+}
+
+.post__name-link {
+  text-decoration: none;
+  color: #0275b1;
+}
+
+.post__name-link:hover {
+  color: #999;
+}
+
+.post__liked-more:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1.87rem;
+}
+
+.user__info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.user__name {
+  font-size: 1rem;
+}
+
+.user__job {
+  font-family: open sans;
+  font-size: 0.825rem;
+}
+
+.post__text {
+  padding: 0 1.87rem 1rem 1.87rem;
+  color: #181818;
+}
+
+.post__text--gradient {
+  color: transparent;
+  background: -webkit-linear-gradient(top, #181818 0%, #e5e5e5 100%);
+  -webkit-background-clip: text;
+}
+
+.post__readmore {
+  text-decoration: none;
+  color: #0275b1;
+  font: 0.75rem var(--font-view1);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 1.87rem;
+}
+
+.post__footer {
+  margin-top: 1.3rem;
+  border-top: 1px solid #f4f4f4;
+  display: flex;
+  height: 3.7rem;
+}
+
+.post__footer-likes,
+.post__footer-comments,
+.post__footer-share {
+  display: flex;
+  padding: 0 1.87rem;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #f4f4f4;
+}
+
+.post__footer-share {
+  border-right: none;
+  border-left: 1px solid #f4f4f4;
+}
+
+.post__footer-share:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.post__footer-empty-space {
+  flex-grow: 1;
+}
+
+.post__icon {
+  margin: 0 0.2rem;
+  width: 1.2rem;
+}
+
+.post__count {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0.2rem;
+}
+
+.post__img {
+  width: 100%;
+  padding: 0 1.87rem;
+}
+
+.file {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.7rem 1.87rem;
+  background-color: #e9f0f8;
+  border-radius: 0.5rem;
+}
+
+.file__icon {
+  padding: 1.5rem;
+}
+
+.file__info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.file__title {
+  font-weight: 700;
+}
+
+.file__type {
+  font-size: 0.8rem;
+}
+
+.file__download-btn {
+  background-color: transparent;
+  padding-right: 1.5rem;
+}
+
+.file__download-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.new-post {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.56rem 1.87rem;
+}
+
+.new-post-decoration-line {
+  height: 1px;
+  margin: 1.25rem 0;
+  background-color: #f4f4f4;
+}
+
+.new-post__form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-post__text {
+  flex-grow: 1;
+  font-family: open sans;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #cecece;
+}
+
+.new-post__text:focus {
+  color: #161616;
+}
+
+.new-post__button {
+  margin-left: 1.2rem;
+}
+
+.new-post__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.go {
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  background-image: url(../icons/go.svg);
+}

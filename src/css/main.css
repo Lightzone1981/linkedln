@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+@import "reset.css";
+@import "normalize.css";
+@import "var.css";
+@import "base.css";
+@import "header.css";
+@import "new-post.css";
+@import "sort-select.css";
+@import "post.css";
+@import "user-profile.css";
+@import "footer.css";
+
+

@@ -1,0 +1,141 @@
+.user-profile {
+  width: 23%;
+  display: inline-block;
+  padding-top: 2.45rem;
+}
+
+.user-card {
+  position: relative;
+  margin: 0 0 0 auto;
+  width: 90%;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.user-card__img {
+  width: 100%;
+}
+
+.user-card__photo {
+  position: absolute;
+  top: 25%;
+  left: 34%;
+}
+
+.user-card__name {
+  padding: 20% 0 1rem 0;
+  font-size: 1rem;
+}
+
+.user-card__about {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  line-height: 1.5em;
+}
+
+.user-write {
+  width: 90%;
+  margin: 1.3rem 0 0 auto;
+  padding: 1rem 0;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-write__button {
+  background: linear-gradient(to bottom, #0077b5, #0e6795);
+  color: #fff;
+  border-radius: 0.3rem;
+  padding: 0.8rem 4.5rem;
+  font-family: open sans;
+  font-size: 0.825rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.user-write__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.groups {
+  width: 90%;
+  margin: 1.3rem 0 0 auto;
+  background-color: #fcfdfd;
+  border-radius: 0.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.groups__header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.groups__header-title {
+  font-size: 1rem;
+}
+
+.groups__edit-btn {
+  background-color: transparent;
+  color: #0077b5;
+  font-family: open sans;
+  font-size: 0.825rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.groups__edit-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.groups__group-container {
+  width: 80%;
+  border-radius: 0.5rem;
+  border: 1px solid #f4f4f4;
+  background-color: #fff;
+  margin: 0 auto 1rem auto;
+  padding: 2rem 1rem;
+}
+
+.groups__group-container:hover {
+  cursor: pointer;
+  border: 1px solid #d1d1d1;
+}
+
+.groups__title {
+  font-size: 1rem;
+}
+
+.groups_img {
+  width: 3.25rem;
+  height: 3.25rem;
+  float: left;
+  margin-right: 1rem;
+}
+
+.groups__show-btn {
+  background-color: transparent;
+  color: #0077b5;
+  margin-left: 10%;
+  font-family: open sans;
+  font-size: 0.825rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.groups__show-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

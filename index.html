@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./src/css/main.css" />
+	<title>Linkedin</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__container">
+			<div class="header__logo-container">
+				<img class="header__logo" src="./src/icons/linkedin-logo.svg" alt="Linkedin logo" />
+			</div>
+			<div class="header__nav-container">
+				<div class="header__nav-item">
+					<img class="header__nav-icon" src="./src/icons/rss.svg" alt="Rss icon" />
+					<a class="header__nav-link" href="#">feed</a>
+				</div>
+				<div class="header__nav-item">
+					<img class="header__nav-icon" src="./src/icons/users.svg" alt="Users icon" />
+					<a class="header__nav-link" href="#">network</a>
+				</div>
+				<div class="header__nav-item">
+					<img class="header__nav-icon" src="./src/icons/briefcase.svg" alt="Case icon" />
+					<a class="header__nav-link" href="#">jobs</a>
+				</div>
+				<div class="header__nav-item">
+					<img class="header__nav-icon" src="./src/icons/chat.svg" alt="chat icon" />
+					<a class="header__nav-link" href="#">chat</a>
+				</div>
+				<div class="header__nav-item">
+					<img class="header__nav-icon" src="./src/icons/bell.svg" alt="bell icon" />
+					<a class="header__nav-link" href="#">notices</a>
+				</div>
+			</div>
+			<form class="header__search" action="#">
+				<input class="header__search-button" type="submit" value=" " />
+				<input class="header__search-text" type="text" value="Search" />
+			</form>
+			<div class="header__user">
+				<img class="header__user-photo" src="./src/images/user-small.png" alt="User photo" />
+				<div class="header__user-info-container">
+					<h2 class="header__user-name">D.Cargaev <span>YOU</span></h2>
+					<h4 class="header__user-views">367 views today <span>+32</span></h4>
+					<img class="header__user-views-arrow" src="./src/icons/arrow-up-right.svg" alt="" />
+				</div>
+			</div>
+			<div class="header__other-menu">
+				<img class="header__other-icon" src="./src/icons/more-horizontal.svg" alt="Other menu icon" />
+				<h2 class="header__other-title">other</h2>
+			</div>
+		</div>
+	</header>
+	<div class="wrapper">
+		<main class="main">
+			<div class="main_container">
+				<section class="new-post">
+					<h2 class="new-post__title">new post</h2>
+					<div class="new-post-decoration-line"></div>
+					<form class="new-post__form" action="#">
+						<input class="new-post__text" type="text" value="What's on your mind?" />
+						<img class="new-post__button paperclip" src="./src/icons/paperclip.svg" alt="paperclip icon" />
+						<img class="new-post__button preview" src="./src/icons/preview.svg" alt="preview icon" />
+						<img class="new-post__button film" src="./src/icons/film.svg" alt="film icon" />
+						<input class="new-post__button go" type="submit" value="" />
+					</form>
+				</section>
+
+				<section class="sort-select">
+					<div class="sort-select__decoration-line"></div>
+					<h2 class="sort-select__text">sort by:</h2>
+					<div class="sort-select__list">
+						<button class="sort-select__button">
+							trending
+							<img class="sort-select__arrow" src="./src/icons/arrow-down.svg" alt="" />
+						</button>
+					</div>
+					<div class="sort-select__decoration-line"></div>
+				</section>
+
+				<section class="post">
+					<div class="post__header">
+						<p class="post__liked">
+							<a class="post__name-link" href="#">Tedd Bell</a>
+							,
+							<a class="post__name-link" href="#">Annette Nguyen</a>
+							and
+							<a class="post__name-link" href="#">Cody Hawkins</a>
+							liked this
+						</p>
+						<img class="post__liked-more" src="./src/icons/more-horizontal.svg" alt="See more icon" />
+					</div>
+					<div class="user">
+						<img class="user__photo" src="./src/images/users/Theresa_Steward.png" alt="user photo" />
+						<div class="user__info-container">
+							<h3 class="user__name">Theresa Stteward</h3>
+							<p class="user__job">iOS developer</p>
+						</div>
+					</div>
+					<p class="post__text post__text--gradient">
+						What did the Dursleys care if Harry lost his place on the House
+						Quidditch team because he hadn't practiced all summer? What was it
+						to the Dursleys if Harry went back to school without any of his
+						homework done? The Dursleys were what wizards called Muggles (not
+						a drop of magical blood in their veins).
+					</p>
+					<a class="post__readmore" href="#">read more</a>
+					<div class="post__footer">
+						<div class="post__footer-likes">
+							<img class="post__icon" src="./src/icons/like-icon.svg" alt="Like icon" />
+							<p class="post__count">42</p>
+						</div>
+						<div class="post__footer-comments">
+							<img class="post__icon" src="./src/icons/comment-icon.svg" alt="Comment icon" />
+							<p class="post__count">9</p>
+						</div>
+						<div class="post__footer-empty-space"></div>
+						<div class="post__footer-share">
+							<img class="post__icon" src="./src/icons/share.svg" alt="Share icon" />
+							<h2 class="post__count">share</h2>
+						</div>
+					</div>
+				</section>
+
+				<section class="post">
+					<div class="post__header">
+						<p class="post__liked">
+							<a class="post__name-link" href="#">Audrey Alexander</a>
+							comment this
+						</p>
+						<img class="post__liked-more" src="./src/icons/more-horizontal.svg" alt="See more icon" />
+					</div>
+					<div class="user">
+						<img class="user__photo" src="./src/images/users/Kyle_Fisher.png" alt="user photo" />
+						<div class="user__info-container">
+							<h3 class="user__name">Kyle Fisher</h3>
+							<p class="user__job">Product designer at Commandor Corp.</p>
+						</div>
+					</div>
+					<p class="post__text">How's your day going, guys?</p>
+					<img class="post__img" src="./src/images/post-photo1.png"
+						alt="clock's, keyboard, notepad and hand with cup of coffee" />
+					<div class="post__footer">
+						<div class="post__footer-likes">
+							<img class="post__icon" src="./src/icons/like-icon.svg" alt="Like icon" />
+							<p class="post__count">42</p>
+						</div>
+						<div class="post__footer-comments">
+							<img class="post__icon" src="./src/icons/comment-icon.svg" alt="Comment icon" />
+							<p class="post__count">9</p>
+						</div>
+						<div class="post__footer-empty-space"></div>
+						<div class="post__footer-share">
+							<img class="post__icon" src="./src/icons/share.svg" alt="Share icon" />
+							<h2 class="post__count">share</h2>
+						</div>
+					</div>
+				</section>
+
+				<section class="post">
+					<div class="post__header">
+						<p class="post__liked">High rated post from your feed</p>
+						<img class="post__liked-more" src="./src/icons/more-horizontal.svg" alt="See more icon" />
+					</div>
+					<div class="user">
+						<img class="user__photo" src="./src/images/users/Brandon_Wilson.png" alt="user photo" />
+						<div class="user__info-container">
+							<h3 class="user__name">Brandon Wilson</h3>
+							<p class="user__job">Senior UX designer</p>
+						</div>
+					</div>
+					<p class="post__text">There is some new guidelines for iOS</p>
+
+					<div class="file">
+						<img class="file__icon" src="./src/icons/file-icon.svg" alt="file icon" />
+						<div class="file__info">
+							<p class="file__title">iOS 11 guidelines for UX/UI designers</p>
+							<p class="file__type">PDF file, 324 kb</p>
+						</div>
+						<button class="file__download-btn">
+							<img class="file__download-icon" src="./src/icons/download-cloud.svg"
+								alt="download button" />
+						</button>
+					</div>
+
+					<div class="file">
+						<img class="file__icon" src="./src/icons/file-icon.svg" alt="file icon" />
+						<div class="file__info">
+							<p class="file__title">iOS 11 guidelines for developers</p>
+							<p class="file__type">PDF file, 245 kb</p>
+						</div>
+						<button class="file__download-btn">
+							<img class="file__download-icon" src="./src/icons/download-cloud.svg"
+								alt="download button" />
+						</button>
+					</div>
+
+					<div class="post__footer">
+						<div class="post__footer-likes">
+							<img class="post__icon" src="./src/icons/like-icon.svg" alt="Like icon" />
+							<p class="post__count">89</p>
+						</div>
+						<div class="post__footer-comments">
+							<img class="post__icon" src="./src/icons/comment-icon.svg" alt="Comment icon" />
+							<p class="post__count">7</p>
+						</div>
+						<div class="post__footer-empty-space"></div>
+						<div class="post__footer-share">
+							<img class="post__icon" src="./src/icons/share.svg" alt="Share icon" />
+							<h2 class="post__count">share</h2>
+						</div>
+					</div>
+				</section>
+
+				<section class="post">
+					<div class="post__header">
+						<p class="post__liked">
+							First post from
+							<a class="post__name-link" href="#">Audrey Alexander</a>
+						</p>
+						<img class="post__liked-more" src="./src/icons/more-horizontal.svg" alt="See more icon" />
+					</div>
+					<div class="user">
+						<img class="user__photo" src="./src/images/users/Audrey_Alexander.png" alt="user photo" />
+						<div class="user__info-container">
+							<h3 class="user__name">Audrey Alexander</h3>
+							<p class="user__job">Team lead at Google</p>
+						</div>
+					</div>
+					<p class="post__text">
+						The bun runs along the road and meets a wolf. «Little bun, little
+						bun, I want to eat you!» says the wolf. «I ran away from
+						Grandfather, I ran away from Grandmother, I ran away from the
+						hare. And I can run away from you, grey wolf!» says the bun and
+						runs away.
+					</p>
+					<div class="post__footer">
+						<div class="post__footer-likes">
+							<img class="post__icon" src="./src/icons/like-icon.svg" alt="Like icon" />
+							<p class="post__count">10</p>
+						</div>
+						<div class="post__footer-comments">
+							<img class="post__icon" src="./src/icons/comment-icon.svg" alt="Comment icon" />
+							<p class="post__count">0</p>
+						</div>
+						<div class="post__footer-empty-space"></div>
+						<div class="post__footer-share">
+							<img class="post__icon" src="./src/icons/share.svg" alt="Share icon" />
+							<h2 class="post__count">share</h2>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<aside class="user-profile">
+			<section class="user-card">
+				<img class="user-card__img" src="./src/images/profile-background.png" alt="gray waves" />
+				<img class="user-card__photo" src="./src/images/User-big.png" alt="User photo" />
+				<h3 class="user-card__name">Dmitry Kargaev</h3>
+				<p class="user-card__about">
+					Freelance UX/UI designer, 80+ projects in web design, mobile apps
+					(iOS & android) and creative projects. Open to offers.
+				</p>
+			</section>
+			<div class="user-write">
+				<button class="user-write__button">write new article</button>
+			</div>
+
+			<section class="groups">
+				<div class="groups__header">
+					<h2 class="groups__header_title">my groups</h2>
+					<button class="groups__edit-btn">edit list</button>
+				</div>
+				<div class="groups__group-container">
+					<img class="groups_img" src="./src/images/mslu-logo.png" alt="Linkedln group image" />
+					<h3 class="groups__title">Moscow State Linguistical University</h3>
+				</div>
+				<div class="groups__group-container">
+					<img class="groups_img" src="./src/images/freelance.png" alt="Linkedln group image" />
+					<h3 class="groups__title">Digital freelancers group</h3>
+				</div>
+				<div class="groups__group-container">
+					<img class="groups_img" src="./src/images/design-association.png" alt="Linkedln group image" />
+					<h3 class="groups__title">Interaction design association</h3>
+				</div>
+				<button class="groups__show-btn">show all (8)</button>
+			</section>
+		</aside>
+	</div>
+	<footer class="footer"></footer>
+</body>
+
+</html>
